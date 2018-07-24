@@ -24,3 +24,5 @@ DerivedData
 
 .idea
 Pods
+
+R.generated.swift

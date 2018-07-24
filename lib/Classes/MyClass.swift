@@ -10,19 +10,11 @@ import Foundation
 public class MyClass {
 
     public static func getSomeLocalizedString() -> String {
-        return NSLocalizedString(
-            "Some.string",
-            tableName: nil,
-            bundle: Bundle(for: MyClass.self),
-            value: "",
-            comment: "Some.string used as a label"
-        )
+        return R.string.localizable.someString()
     }
     
     public static func loadMyViewFromNib() -> UIView? {
-        return UINib(nibName: "MyView", bundle: Bundle(for: MyClass.self))
-            .instantiate(withOwner: nil, options: nil)
-            .first as? UIView
+        return R.nib.myView.firstView(owner: nil)
     }
 }
 

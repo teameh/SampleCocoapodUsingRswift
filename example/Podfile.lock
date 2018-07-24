@@ -1,15 +1,26 @@
 PODS:
-  - SampleCocoapodUsingRSwift (0.1.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - SampleCocoapodUsingRSwift (0.1.0):
+    - R.swift
 
 DEPENDENCIES:
   - SampleCocoapodUsingRSwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - R.swift
+    - R.swift.Library
 
 EXTERNAL SOURCES:
   SampleCocoapodUsingRSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SampleCocoapodUsingRSwift: ebe593e502ef4e2f64bb23c360698c85e4dee3f9
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  SampleCocoapodUsingRSwift: 78a0e88b6d4c290f5281581027243cfcc2a360b6
 
 PODFILE CHECKSUM: 039ffa4deff553f2ec1a2164a2936438493204cb
 

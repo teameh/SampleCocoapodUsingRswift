@@ -19,4 +19,17 @@ Pod::Spec.new do |s|
 
   s.source_files = 'lib/Classes/**/*'
   s.resources = 'lib/Assets/**/*'
+
+  # Cocoapods This won't work with R.swift..
+  #s.resource_bundles = {
+  #  'Localization' => ['lib/Assets/**/*.lproj']
+  #}
+
+  s.dependency 'R.swift'
+
+  s.script_phases = [{
+     :name => 'R',
+     :script => '"$SRCROOT/R.swift/rswift" generate "$SRCROOT/../../lib/Classes/"',
+     :execution_position => :before_compile
+  }]
 end
