@@ -1,0 +1,16 @@
+PODS:
+  - SampleCocoapodUsingRSwift (0.1.0)
+
+DEPENDENCIES:
+  - SampleCocoapodUsingRSwift (from `../`)
+
+EXTERNAL SOURCES:
+  SampleCocoapodUsingRSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SampleCocoapodUsingRSwift: ebe593e502ef4e2f64bb23c360698c85e4dee3f9
+
+PODFILE CHECKSUM: 039ffa4deff553f2ec1a2164a2936438493204cb
+
+COCOAPODS: 1.5.3
