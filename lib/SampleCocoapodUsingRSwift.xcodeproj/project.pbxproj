@@ -12,6 +12,7 @@
 		520699CC21085CBD00998CC7 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520699C621085CBD00998CC7 /* MyView.xib */; };
 		520699CD21085CBD00998CC7 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520699C921085CBD00998CC7 /* MyClass.swift */; };
 		520699CE21085CBD00998CC7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520699CA21085CBD00998CC7 /* R.generated.swift */; };
+		52B4136F21087BC000D7A4FE /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4136E21087BC000D7A4FE /* String+localized.swift */; };
 		DA3F368CA08A1BD5E06C066B /* Pods_SampleCocoapodUsingRSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE9764A2DC1034DF005F7D4 /* Pods_SampleCocoapodUsingRSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		520699C721085CBD00998CC7 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		520699C921085CBD00998CC7 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		520699CA21085CBD00998CC7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		52B4136E21087BC000D7A4FE /* String+localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
 		ADE9764A2DC1034DF005F7D4 /* Pods_SampleCocoapodUsingRSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleCocoapodUsingRSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C288D3E51E13E87576BC76A5 /* Pods-SampleCocoapodUsingRSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleCocoapodUsingRSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleCocoapodUsingRSwift/Pods-SampleCocoapodUsingRSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D4DAE772B003AF36AEED7074 /* Pods-SampleCocoapodUsingRSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleCocoapodUsingRSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleCocoapodUsingRSwift/Pods-SampleCocoapodUsingRSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				520699C921085CBD00998CC7 /* MyClass.swift */,
+				52B4136E21087BC000D7A4FE /* String+localized.swift */,
 				520699CA21085CBD00998CC7 /* R.generated.swift */,
 			);
 			path = Classes;
@@ -123,8 +126,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520699C021085C7C00998CC7 /* Build configuration list for PBXNativeTarget "SampleCocoapodUsingRSwift" */;
 			buildPhases = (
-				520699CF21085EB200998CC7 /* ShellScript */,
 				2EED43A6A8D2D857DCF35980 /* [CP] Check Pods Manifest.lock */,
+				520699CF21085EB200998CC7 /* ShellScript */,
 				520699B321085C7C00998CC7 /* Sources */,
 				520699B421085C7C00998CC7 /* Frameworks */,
 				520699B521085C7C00998CC7 /* Headers */,
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520699CD21085CBD00998CC7 /* MyClass.swift in Sources */,
+				52B4136F21087BC000D7A4FE /* String+localized.swift in Sources */,
 				520699CE21085CBD00998CC7 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

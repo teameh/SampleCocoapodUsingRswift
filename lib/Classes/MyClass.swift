@@ -10,7 +10,11 @@ import Foundation
 public class MyClass {
 
     public static func getSomeLocalizedString() -> String {
-        return R.string.localizable.someString()
+        return R.string.localizable.someString.key.localized()
+    }
+    
+    public static func getAnotherLocalizedString() -> String {
+        return R.string.localizable.anotherString.key.localized()
     }
     
     public static func loadMyViewFromNib() -> UIView? {

@@ -12,6 +12,7 @@
 		5206995D2107648300998CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5206995B2107648300998CC7 /* Main.storyboard */; };
 		5206995F2107648400998CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5206995E2107648400998CC7 /* Assets.xcassets */; };
 		520699622107648400998CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520699602107648400998CC7 /* LaunchScreen.storyboard */; };
+		5206997A210781F600998CC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52069977210781F600998CC7 /* Localizable.strings */; };
 		DE526603714CE9AC4ACB59E5 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22FE445CD89DF2256FC5990 /* Pods_SampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 		5206995E2107648400998CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520699612107648400998CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		520699632107648400998CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52069978210781F600998CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52069979210781F600998CC7 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6D3A7D44AE7B7493C3C83F09 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		6EE23ECEE6DA0C9B9A258EA3 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E22FE445CD89DF2256FC5990 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +74,7 @@
 			children = (
 				520699572107648300998CC7 /* AppDelegate.swift */,
 				520699592107648300998CC7 /* ViewController.swift */,
+				52069977210781F600998CC7 /* Localizable.strings */,
 				5206995B2107648300998CC7 /* Main.storyboard */,
 				5206995E2107648400998CC7 /* Assets.xcassets */,
 				520699602107648400998CC7 /* LaunchScreen.storyboard */,
@@ -132,6 +136,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
 			);
 			mainGroup = 5206994B2107648300998CC7;
 			productRefGroup = 520699552107648300998CC7 /* Products */;
@@ -149,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520699622107648400998CC7 /* LaunchScreen.storyboard in Resources */,
+				5206997A210781F600998CC7 /* Localizable.strings in Resources */,
 				5206995F2107648400998CC7 /* Assets.xcassets in Resources */,
 				5206995D2107648300998CC7 /* Main.storyboard in Resources */,
 			);
@@ -224,6 +230,15 @@
 				520699612107648400998CC7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52069977210781F600998CC7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52069978210781F600998CC7 /* en */,
+				52069979210781F600998CC7 /* nl */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

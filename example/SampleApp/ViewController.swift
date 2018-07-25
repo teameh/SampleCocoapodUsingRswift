@@ -24,5 +24,10 @@ class ViewController: UIViewController {
         label.text = MyClass.getSomeLocalizedString()
         label.textAlignment = .center
         myView.addSubview(label)
+        
+        let anotherLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 320, height: 200))
+        anotherLabel.text = MyClass.getAnotherLocalizedString()
+        anotherLabel.textAlignment = .center
+        myView.addSubview(anotherLabel)
     }
 }
