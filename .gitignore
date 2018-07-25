@@ -25,4 +25,5 @@ DerivedData
 .idea
 Pods
 
-R.generated.swift
+# Development workspace
+lib/SampleCocoapodUsingRSwift.xcworkspace/

@@ -26,18 +26,4 @@ Pod::Spec.new do |s|
   #}
 
   s.dependency 'R.swift'
-
-  # Needed when this pod is included in sample app
-  s.script_phases = [{
-     :name => 'R',
-     :script => '"$SRCROOT/R.swift/rswift" generate "$SRCROOT/../../lib/Classes/"',
-     :execution_position => :before_compile
-  }]
-
-  # Needed when this pod is included in other App
-  # s.script_phases = [{
-  #   :name => 'R',
-  #   :script => '"$SRCROOT/R.swift/rswift" generate "$SRCROOT/SampleCocoapodUsingRSwift/lib/Classes/"',
-  #   :execution_position => :before_compile
-  #}]
 end
