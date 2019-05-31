@@ -21,8 +21,17 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 0 files.
+  /// This `R.file` struct is generated, and contains static references to 1 files.
   struct file {
+    /// Resource file `sheep.jpg`.
+    static let sheepJpg = Rswift.FileResource(bundle: R.hostingBundle, name: "sheep", pathExtension: "jpg")
+    
+    /// `bundle.url(forResource: "sheep", withExtension: "jpg")`
+    static func sheepJpg(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.sheepJpg
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     fileprivate init() {}
   }
   
@@ -31,8 +40,16 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 0 images.
+  /// This `R.image` struct is generated, and contains static references to 1 images.
   struct image {
+    /// Image `sheep.jpg`.
+    static let sheepJpg = Rswift.ImageResource(bundle: R.hostingBundle, name: "sheep.jpg")
+    
+    /// `UIImage(named: "sheep.jpg", bundle: ..., traitCollection: ...)`
+    static func sheepJpg(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.sheepJpg, compatibleWith: traitCollection)
+    }
+    
     fileprivate init() {}
   }
   

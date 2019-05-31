@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         }
         myView.frame = view.frame.insetBy(dx: 20, dy: 20)
         view.addSubview(myView)
-        
+
+        let sheepView = UIImageView(frame: CGRect(x: 20, y: 20, width: 164, height: 250))
+        sheepView.image = MyClass.loadSheep()
+        myView.addSubview(sheepView)
+
         let label = UILabel(frame: myView.frame)
         label.text = MyClass.getSomeLocalizedString()
         label.textAlignment = .center

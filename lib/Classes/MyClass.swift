@@ -16,5 +16,9 @@ public class MyClass {
     public static func loadMyViewFromNib() -> UIView? {
         return R.nib.myView.firstView(owner: nil)
     }
+
+    public static func loadSheep() -> UIImage {
+        return R.image.sheepJpg()!
+    }
 }
 

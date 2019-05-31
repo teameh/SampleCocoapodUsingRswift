@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4465E61E22A1044E0010C93F /* sheep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4465E61D22A1044E0010C93F /* sheep.jpg */; };
 		520699BD21085C7C00998CC7 /* SampleCocoapodUsingRSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 520699BB21085C7C00998CC7 /* SampleCocoapodUsingRSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		520699CB21085CBD00998CC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520699C421085CBD00998CC7 /* Localizable.strings */; };
 		520699CC21085CBD00998CC7 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520699C621085CBD00998CC7 /* MyView.xib */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4465E61D22A1044E0010C93F /* sheep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sheep.jpg; sourceTree = "<group>"; };
 		520699B821085C7C00998CC7 /* SampleCocoapodUsingRSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleCocoapodUsingRSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520699BB21085C7C00998CC7 /* SampleCocoapodUsingRSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleCocoapodUsingRSwift.h; sourceTree = "<group>"; };
 		520699BC21085C7C00998CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				520699C421085CBD00998CC7 /* Localizable.strings */,
+				4465E61D22A1044E0010C93F /* sheep.jpg */,
 				520699C621085CBD00998CC7 /* MyView.xib */,
 			);
 			path = Assets;
@@ -178,6 +181,7 @@
 			files = (
 				520699CC21085CBD00998CC7 /* MyView.xib in Resources */,
 				520699CB21085CBD00998CC7 /* Localizable.strings in Resources */,
+				4465E61E22A1044E0010C93F /* sheep.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
